@@ -10,21 +10,21 @@ boxes = [
         :mem => "1024",
         :cpu => "1",
         :port => "2021"
-    },
-    {
-        :name => "centos7-testing",
-        :eth1 => "192.168.20.22",
-        :mem => "1024",
-        :cpu => "1",
-        :port => "2022"
-    },
-    {
-        :name => "centos7-staging",
-        :eth1 => "192.168.20.23",
-        :mem => "1024",
-        :cpu => "1",
-        :port => "2023"
     }
+    # {
+    #     :name => "centos7-testing",
+    #     :eth1 => "192.168.20.22",
+    #     :mem => "1024",
+    #     :cpu => "1",
+    #     :port => "2022"
+    # },
+    # {
+    #     :name => "centos7-staging",
+    #     :eth1 => "192.168.20.23",
+    #     :mem => "1024",
+    #     :cpu => "1",
+    #     :port => "2023"
+    # }
 ]
 
 Vagrant.configure(2) do |config|
